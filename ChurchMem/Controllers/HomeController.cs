@@ -20,6 +20,7 @@ namespace ChurchMem.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Title"] = "Esther's Troublesome Gal";
             return View();
         }
 
